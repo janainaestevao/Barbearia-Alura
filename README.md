@@ -1,2 +1,2 @@
 # Barbearia-Alura
- Site realizado no curso da Alura formação Oracle One
+ Site realizado no curso da Alura formação Oracle One.
