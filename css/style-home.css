@@ -1,0 +1,124 @@
+header{
+    background:#708090;
+    padding: 20px 0;/**espaçamento interno**/
+}
+.caixa{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;/**margem 1 topo, 2 direita,3 embaixo, 4 esqerda**/
+}
+nav a{
+    text-transform: uppercase;/**transforma todas as letras em maiúscula**/
+    color: white;
+    font-weight: bold;/**texto em negrito**/
+    font-size: 22px;
+    text-decoration: none;/**sem nenhuma decoração no texto**/
+   
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+.imagem{
+    position: relative;
+    align-content: left;
+}
+#banner{
+    image-rendering: auto;
+    border-image-width: auto;
+    width: 100%;
+    vertical-align: bottom;/**retira o espaçamento existente entre a linha e a imagem**/
+}
+.principal{
+    background: #708090;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 0 5px;
+    color: white;
+    letter-spacing: .2rem;
+    line-height: 1.8;/**espaçamento entre linhas**/
+
+}
+.titulo-beneficios{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px 10 10px 0;
+    color:black;
+    letter-spacing: .2rem;/**espaçamento entre as letras de uma palavra**/
+
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    line-height: 1.8;
+}
+#missao{
+    font-size:  18px;
+    line-height: 1.8;
+   
+}
+em strong{
+    color:blue;
+    font-style: italic;
+    font-weight: bold;
+}
+.itens{
+    font-size: 18px;
+    font-style: italic;
+    margin: 15px 15px 15px 15px
+    
+
+}
+.beneficios{
+    background: #cccccc;
+    padding: 20px;/** espaçamento interno para todos os lados**/
+    left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.beneficios ul{
+    display: inline-block; /**inline-block só ocupa o tamanho do conteúdo mais deixa mexer na largura**/
+    vertical-align: top; /** alinhados pela linha de cima**/
+    width: 30%;
+    margin-right: 30%;
+    list-style: circle;
+}
+.imagembeneficios{
+    image-rendering: auto;
+    border-image-width: auto;
+    width: 100%;
+    background-image: url("beneficios.jpg");
+   
+}
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0 ;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
